@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(166, 173, 151);
+    color: #000000;
+}
+
+.container {
+    background-color: rgb(166, 173, 151);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-y: scroll; /* Habilita a rolagem vertical apenas no conteúdo central */
+    height: 100vh; /* Define a altura máxima para ocupar toda a altura da janela do navegador */
+    
+
+}
+
+
+header, footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+   
+}
+
+aside.pai {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    transform: translateY(-50%);
+    width: 300px; /* Largura do aside (ajuste conforme necessário) */
+    background-color: #f0f0f0; /* Cor de fundo opcional */
+    padding: 10px; /* Adicione margem interna conforme necessário */
+}
+
+img{
+
+    width: 50%; /* Define a largura como metade do tamanho original */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
